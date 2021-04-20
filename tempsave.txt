@@ -1,0 +1,30 @@
+
+#Right Click Disable
+
+window.addEventListener('contextmenu', function (e) {
+        e.preventDefault();
+  }, false);
+
+
+  document.querySelector('div').addEventListener('contextmenu', event => {
+    event.preventDefault();
+    })
+
+  document.querySelector('img').addEventListener('contextmenu', event => {
+    event.preventDefault();
+    })
+
+
+  document.addEventListener('contextmenu', event => {
+  event.preventDefault();
+  })
+
+
+
+
+
+
+
+  #Button
+
+   <button class="flex mx-auto mt-20 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>

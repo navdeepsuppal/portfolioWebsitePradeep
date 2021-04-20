@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pradeep Singh Uppal</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+
+  <link rel="shortcut icon" type="image/x-icon" href="images/jerry.png" />
+
+  <script src = "\javascript\csi.js"></script>
+  <script src = "\javascript\index.js"></script>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+
+<body>
+  
+  <!--
+  <a href ="\pages\blog.html">Blog</a> 
+  <a href ="\pages\contact.html">Contact</a> 
+  <a href ="\pages\resume.html">Resume</a> 
+  <a href ="\pages\mylife.html">Mylife</a> 
+  <a href ="\pages\projects.html">projects</a> 
+-->
+  
+  <div class ="main">
+    <nav>
+      <center>
+        <div class ="logo">
+          <section>
+            <img class="mySlides" src="images\jerry.png" style="height:150px; width:150px">
+          </section>
+        </div>
+        
+        
+        <div class ="myname">
+          Pradeep Singh Uppal
+        </div>
+        <div class ="skills">
+          <mark>AWS, DevOps, Java, Web Development</mark>
+        </div>
+      </center>
+
+      <section class="text-gray-600 body-font">
+        <div id= "wrapper" class="container px-5 py-24 mx-auto flex flex-wrap flex-col">
+          <div class="flex mx-auto flex-wrap mb-20">
+            <ul>
+
+            <li><a id = "menu-selected about-me" class="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium bg-gray-100 inline-flex items-center leading-none border-indigo-500 text-indigo-500 tracking-wider rounded-t" onclick="change('about-me')">
+              about me
+            </a>
+            </li>
+            <li>
+            <a id = "menu resume" class="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider" onclick="change('resume')">
+              resume
+            </a>
+          </li>
+          
+          
+          <li>
+            <a id = "menu projects" class="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider" onclick="change('projects')">
+              projects
+            </a>
+          </li>
+          <li>
+            <a id = "menu mylife" class="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider" onclick="change('mylife')">
+              my life
+            </a>
+          </li>
+          <li>
+            <a id = "menu contact" class="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider" onclick="change('contact')">
+              contact
+            </a>
+          </li>
+          <li>
+            <a id = "menu blog" class="sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-gray-900 tracking-wider" onclick="change('blog')">
+              blog
+            </a>
+          </li>
+          </ul>
+          </div>
+          <div class = "menu-content-selected about-me" id = "menu-content-selected about-me"><div data-include="pages//about me.html"></div></div>
+          <div class = "menu-content resume"            id = "menu-content resume"           ><div data-include="pages//resume.html"  ></div></div>
+          <div class = "menu-content contact"           id = "menu-content contact"          ><div data-include="pages//contact.html" ></div></div>
+          <div class = "menu-content projects"          id = "menu-content projects"         ><div data-include="pages//projects.html"></div></div>
+          <div class = "menu-content mylife"            id = "menu-content mylife"           ><div data-include="pages//mylife.html"  ></div></div>
+        </div>
+      </section>
+    </nav>
+  </div>
+</body>
+<footer class="footer footer1">
+  <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+    <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+      <img class="mySlides" src="images//jerry.png" style="height:50px; width:50px">
+      <span class="ml-3 text-xl">Navdeep Singh</span>
+    </a>
+    <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
+      <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank"></a>
+    </p>
+    <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+      <a class="text-gray-500">
+        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-500">
+        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-500">
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+          <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-500">
+        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+          <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+          <circle cx="4" cy="4" r="2" stroke="none"></circle>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-500" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+        <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 72 72"><path fill="#d0cfce" d="M29.044 61.611c0-.927-.035-3.98-.035-7.764c0-2.647.874-4.373 1.863-5.253c-6.227-.721-12.779-3.153-12.779-14.034c0-3.098 1.096-5.632 2.887-7.615c-.286-.72-1.253-3.606.278-7.514c0 0 2.355-.764 7.716 2.908c2.238-.628 4.638-.946 7.027-.951c2.384.005 4.785.323 7.027.951c5.357-3.672 7.711-2.908 7.711-2.908c1.532 3.908.57 6.795.278 7.514c1.796 1.983 2.882 4.514 2.882 7.615c0 10.905-6.56 13.307-12.817 14.008c1.013.882 1.909 2.611 1.909 5.263c0 3.792-.035 6.85-.035 7.78c0 .762.505 1.641 1.93 1.369c11.145-3.758 19.177-14.396 19.177-26.932c0-15.678-12.567-28.388-28.067-28.388c-15.494 0-28.06 12.707-28.06 28.388c0 12.541 8.04 23.182 19.202 26.934c1.395.262 1.906-.614 1.906-1.37z"/><g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"><path d="M29.044 61.611c0-.927-.035-3.98-.035-7.764c0-2.647.874-4.373 1.863-5.253c-6.227-.721-12.779-3.153-12.779-14.034c0-3.098 1.096-5.632 2.887-7.615c-.286-.72-1.253-3.606.278-7.514c0 0 2.355-.764 7.716 2.908c2.238-.628 4.638-.946 7.027-.951c2.384.005 4.785.323 7.027.951c5.357-3.672 7.711-2.908 7.711-2.908c1.532 3.908.57 6.795.278 7.514c1.796 1.983 2.882 4.514 2.882 7.615c0 10.905-6.56 13.307-12.817 14.008c1.013.882 1.909 2.611 1.909 5.263c0 3.792-.035 6.85-.035 7.78c0 .762.505 1.641 1.93 1.369c11.145-3.758 19.177-14.396 19.177-26.932c0-15.678-12.567-28.388-28.067-28.388c-15.494 0-28.06 12.707-28.06 28.388c0 12.541 8.04 23.182 19.202 26.934c1.395.262 1.906-.614 1.906-1.37z"/><path d="M16.29 48.09c2.568.78 3.58 1.635 4.789 3.661c1.205 2.026 2.62 4.287 7.933 2.999"/></g></svg>
+      </a>
+    </span>
+  </div>
+</footer>
+</html>
